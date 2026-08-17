@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "cd frontend && npx docusaurus build"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "^4.1.0"
+  }
+}
