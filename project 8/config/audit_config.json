@@ -1,0 +1,15 @@
+{
+  "audit_scope": "project_8_only",
+  "python_version": "3.12",
+  "max_retries": 2,
+  "token_threshold": 50000,
+  "schedule": "weekly",
+  "lint_tool": "ruff",
+  "security_tools": {
+    "python": ["pip-audit", "safety"]
+  },
+  "test_command": "pytest tests/ -v",
+  "pr_labels": ["dependencies", "security", "automated"],
+  "safe_bump_types": ["patch"],
+  "worktree_name": "worktree-capstone-audit"
+}
