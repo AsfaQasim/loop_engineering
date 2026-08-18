@@ -1,0 +1,5 @@
+BUG1: FAIL - ZeroDivisionError detected
+BUG2: FAIL - KeyError detected
+BUG3: FAIL - ValueError detected
+
+Some checks FAILED
