@@ -1,7 +1,7 @@
-from pydantic import BaseModel
-import requests
-from typing import Optional
 import json
+
+import requests
+from pydantic import BaseModel
 
 
 class HealthCheck(BaseModel):
@@ -27,7 +27,7 @@ class App:
             dependencies=self._dependencies,
         )
 
-    def fetch_remote(self, url: str) -> Optional[dict]:
+    def fetch_remote(self, url: str) -> dict | None:
         try:
             resp = requests.get(url, timeout=5)
             resp.raise_for_status()
