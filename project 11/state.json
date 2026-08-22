@@ -1,0 +1,25 @@
+{
+  "project": "Project 11",
+  "phase": "routine_a_complete",
+  "routine_a": {
+    "status": "completed",
+    "draft_id": "draft_1787399732",
+    "executed_at": "2026-08-22T16:55:32.688823",
+    "output_files": [
+      "draft_output/draft_review.json",
+      "draft_output/DRAFT_SUMMARY.md"
+    ]
+  },
+  "routine_b": {
+    "status": "completed",
+    "requires_approval": true,
+    "approval_timestamp": null,
+    "bearer_token_used": true,
+    "executed_at": "2026-08-22T16:56:00.719721"
+  },
+  "human_gate": {
+    "approval_required": true,
+    "approved": true,
+    "approved_at": "2026-08-22T16:56:00.719721"
+  }
+}
