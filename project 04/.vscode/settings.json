@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./learn_humanoid_robot"
+    ]
+}
